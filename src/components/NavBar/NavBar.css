@@ -1,0 +1,42 @@
+.NavBar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background-color: rgb(231, 97, 97);
+    color: white;
+    padding: 30px 90px;
+    width: auto;
+}
+
+.Categories {
+    color: rgb(231, 97, 97);
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.Option {
+    text-decoration: none;
+    color: white;
+}
+
+.Option:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.ActiveOption {
+    text-decoration: none;
+    color: black;
+}
+
+.CartContainer {
+    cursor: pointer;
+}
+
+.BrandName {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 35px;
+}
